@@ -1,4 +1,6 @@
+/* ####################### */
 /* ### Custom Property ### */
+/* ####################### */
 :root {
   /* Colors */
   --primary: #b5a1e5;
@@ -73,7 +75,9 @@
   --transition-short: 100ms ease;
 }
 
+/* ############# */
 /* ### Reset ### */
+/* ############# */
 *,
 *::before,
 *::after {
@@ -164,7 +168,9 @@ body {
   border-radius: var(--radius-pill);
 }
 
+/* ##################### */
 /* ### Material Icon ### */
+/* ##################### */
 @font-face {
   font-family: "Material Symbols Rounded";
   font-style: normal;
@@ -191,7 +197,9 @@ body {
   overflow: hidden;
 }
 
+/* ##################### */
 /* ### Reused Styles ### */
+/* ##################### */
 .container {
   max-width: 1600px;
   width: 100%;
@@ -272,8 +280,24 @@ body {
   display: none;
 }
 
-/* ### Header ### */
+.card {
+  background-color: var(--surface);
+  color: var(--on-surface);
+}
 
+.card-lg {
+  border-radius: var(--radius-28);
+  padding: 20px;
+}
+
+.card-sm {
+  border-radius: var(--radius-16);
+  padding: 16px;
+}
+
+/* ############## */
+/* ### Header ### */
+/* ############## */
 .header .btn-primary .span {
   display: none;
 }
@@ -410,18 +434,34 @@ body {
   box-shadow: none;
 }
 
+/* ####################### */
 /* ### Current Weather ### */
+/* ####################### */
 
+/* ################## */
 /* ### Highlights ### */
+/* ################## */
 
+/* ####################### */
 /* ### Hourly Forecast ### */
+/* ####################### */
 
+/* ################ */
 /* ### Forecast ### */
+/* ################ */
 
+/* ############### */
 /* ### Loading ### */
+/* ############### */
 
+/* ##################### */
 /* ### Error Section ### */
+/* ##################### */
 
+/* ############## */
 /* ### Footer ### */
+/* ############## */
 
+/* ##################### */
 /* ### Media Queries ### */
+/* ##################### */
