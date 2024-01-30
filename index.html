@@ -29,8 +29,8 @@
     <link rel="stylesheet" href="./src/css/style.css" />
 
     <!-- Custom Script Link -->
-    <script src="./src/js/app.js" type="module"></script>
-    <script src="./src/js/route.js" type="module"></script>
+    <script type="module" src="./src/js/app.js"></script>
+    <script type="module" src="./src/js/route.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -496,45 +496,9 @@
                     <p class="body-3">25&deg;</p>
                   </div>
                 </li>
-
-                <li class="slider-item">
-                  <div class="card card-sm slider-card">
-                    <p class="body-3">03 PM</p>
-
-                    <img
-                      src="./src/assets/weather_icons/01n.png"
-                      width="48"
-                      height="48"
-                      loading="lazy"
-                      alt=""
-                      class="weather-icon"
-                      title=""
-                    />
-
-                    <p class="body-3">25&deg;</p>
-                  </div>
-                </li>
               </ul>
 
               <ul class="slider-list" data-wind>
-                <li class="slider-item">
-                  <div class="card card-sm slider-card">
-                    <p class="body-3">03 PM</p>
-
-                    <img
-                      src="./src/assets/weather_icons/direction.png"
-                      width="48"
-                      height="48"
-                      loading="lazy"
-                      alt=""
-                      class="weather-icon"
-                      title=""
-                    />
-
-                    <p class="body-3">12 km/h</p>
-                  </div>
-                </li>
-
                 <li class="slider-item">
                   <div class="card card-sm slider-card">
                     <p class="body-3">03 PM</p>
@@ -692,6 +656,7 @@
                   height="30"
                   loading="lazy"
                   alt="OpenWeather"
+                  class="inline-block"
                 />
               </a>
             </p>
