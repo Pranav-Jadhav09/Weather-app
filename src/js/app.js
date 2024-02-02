@@ -437,6 +437,8 @@ export const updateWeather = function (lat, lon) {
       container.classList.add("fade-in");
     });
   });
+
+  console.clear();
 };
 
-export const error404 = function () {};
+export const error404 = () => (errorContent.style.display = "flex");
