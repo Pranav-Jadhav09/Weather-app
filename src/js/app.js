@@ -10,6 +10,13 @@ import { fetchData, url } from "./api.js";
 import * as module from "./module.js";
 
 /**
+ * Footer Set current year
+ */
+const yearEl = document.querySelector("#year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
+/**
  * Add event listener on multiple elements
  * @param {NodeList} elements Elements node array
  * @param {string} eventType Event Type e.g.: "click","mouseover"
