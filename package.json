@@ -2,11 +2,15 @@
   "name": "wr-spa",
   "version": "1.0.0",
   "description": "Explore accurate and real-time weather information for cities around the world with Weatherio. Get current weather conditions, 5-day forecasts, wind speed, sunrise and sunset times, air quality, humidity, and more.  Stay informed about weather changes effortlessly. Visit Weatherio now!",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
-    "start": "",
-    "build": ""
+    "start": "parcel ./index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "jrpranav",
-  "license": "GPL-3.0 License"
+  "license": "GPL-3.0 License",
+  "dependencies": {
+    "core-js": "^3.35.1",
+    "parcel": "^2.11.0"
+  }
 }
